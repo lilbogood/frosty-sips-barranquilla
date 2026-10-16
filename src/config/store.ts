@@ -74,7 +74,7 @@ export interface Product {
   sizes: Size[];
   /** true = disponibilidad confirmada; null = sin confirmar; false = agotado. */
   available: boolean | null;
-  tag?: string;
+  tag?: string | undefined;
   ingredients: string | null;
   allergens: string | null;
   demo: boolean;
